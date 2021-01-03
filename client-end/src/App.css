@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.container {
+  position: absolute;
+  height: 55%;
+  width: 45%;
+  /*background-color: #C7DBF4;*/
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+  color: #C7DBF4;
+  left: 395px;
+  top: 17%;
+  font-size: 25px;
+}
+
+.lookup {
+  position: absolute;
+  left: 940px;
+  top: 16%;
+  color: #C7DBF4;
+}
+
+
+.pagination {
+  position: relative;
+  top: 160px;
+  cursor: pointer;
+}
+
+.previous {
+  font-size: 12px;
+  width: 100px;
+  height: 25px;
+  background-color: #C7DBF4;
+}
+
+.next {
+  font-size: 12px;
+  width: 100px;
+  height: 25px;
+  background-color: #C7DBF4;
+}
